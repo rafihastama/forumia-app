@@ -19,7 +19,7 @@ function LoginPage () {
       </header>
       <article className="login-page__main">
         <h2>
-          Applore
+          Lets Applore
           {' '}
           <strong>The Forumia</strong>
           ,
