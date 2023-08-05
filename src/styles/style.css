@@ -7,6 +7,7 @@
 :root {
   --accent-color: #00796b;
   --foreground-color: #344a5f;
+  --hover-color:rgb(33, 45, 56);
   --background-color: white;
   --gray-dark-color: #66757F;
   --gray-light-color: #edeff1;
@@ -80,6 +81,14 @@ body {
   font-weight: 600;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.login-input button:hover {
+  background-color: var(--hover-color);
+}
+
+.register-input button:hover {
+  background-color: var(--hover-color);
 }
 
 .home-page {
@@ -245,6 +254,10 @@ body {
   margin-bottom: 5px;
 }
 
+.thread-input button:hover {
+  background-color: var(--hover-color);
+}
+
 .thread-input__char-left {
   font-size: 15px;
   margin: 6px 0 8px 0;
@@ -354,6 +367,10 @@ body {
   padding: 12px;
   margin-bottom: 30px;
   margin-top: 10px;
+}
+
+.thread-comment button:hover {
+  background-color: var(--hover-color);
 }
 
 .thread__reply {
